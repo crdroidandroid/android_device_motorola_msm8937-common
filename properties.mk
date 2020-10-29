@@ -90,7 +90,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.disable_rotator_downscale=1 \
     vendor.display.enable_default_color_mode=1 \
     ro.config.avoid_gfx_accel=true \
-    ro.vendor.qti.am.reschedule_service=true
+    ro.vendor.qti.am.reschedule_service=true \
+    vendor.gralloc.disable_ahardware_buffer=1
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -373,4 +373,9 @@
 
     <!-- The default vibration strength, must be between 1 and 255 inclusive. -->
     <integer name="config_defaultVibrationAmplitude">128</integer>
+
+    <!-- Whether this device is supporting the microphone toggle -->
+    <bool name="config_supportsMicToggle">true</bool>
+    <!-- Whether this device is supporting the camera toggle -->
+    <bool name="config_supportsCamToggle">true</bool>
 </resources>

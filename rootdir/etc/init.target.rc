@@ -158,9 +158,3 @@ on property:init.svc.vendor.per_mgr=running
 
 on property:sys.shutdown.requested=*
     stop vendor.per_proxy
-
-on property:persist.enable.usb.charging=1
-    write /sys/class/power_supply/battery/battery_charging_enabled 1
-
-on property:persist.enable.usb.charging=0
-    write /sys/class/power_supply/battery/battery_charging_enabled 0

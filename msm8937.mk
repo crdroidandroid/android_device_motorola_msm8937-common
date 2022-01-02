@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
 # A2DP
 PRODUCT_PACKAGES += \
   audio.a2dp.default \
+  libldacBT_bco \
   android.hardware.bluetooth.a2dp@1.0-impl \
   android.hardware.bluetooth.a2dp@1.0-service
 

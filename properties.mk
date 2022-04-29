@@ -88,7 +88,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.cabl=0 \
     debug.egl.force_msaa=1 \
     vendor.display.disable_rotator_downscale=1 \
-    vendor.display.enable_default_color_mode=1
+    vendor.display.enable_default_color_mode=1 \
+    ro.config.avoid_gfx_accel=true \
+    ro.vendor.qti.am.reschedule_service=true
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \

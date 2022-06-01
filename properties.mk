@@ -114,6 +114,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=0 \
     debug.cpurend.vsync=false \
     debug.sf.latch_unsignaled=1 \
+    debug.sf.enable_gl_backpressure=1 \
     debug.sf.recomputecrop=0 \
     dev.pm.dyn_samplingrate=1 \
     persist.hwc.mdpcomp.enable=true \

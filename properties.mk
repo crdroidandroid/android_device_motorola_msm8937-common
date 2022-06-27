@@ -227,3 +227,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Smoothens UI
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.service.lgospd.enable=0 \
+persist.service.pcsync.enable=0

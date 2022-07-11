@@ -232,3 +232,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.service.lgospd.enable=0 \
 persist.service.pcsync.enable=0
+
+# Blur
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.launcher.blur.appLaunch=0

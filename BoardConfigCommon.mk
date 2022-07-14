@@ -67,9 +67,6 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 BOARD_NO_CHARGER_LED := true
 
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 

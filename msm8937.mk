@@ -71,6 +71,11 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5 \
     android.hardware.camera.provider@2.5-service
 
+# APNs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/apns-conf.xml
+
 # CNE
 PRODUCT_PACKAGES += \
     libcnefeatureconfig

@@ -144,6 +144,8 @@ vendor/lib64/librpmb.so
 vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
+vendor/lib64/libops.so
+vendor/lib64/libspl.so
 
 # DRM - Qualcomm Trusted Execution Enviornment
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
